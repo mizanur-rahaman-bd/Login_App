@@ -1,0 +1,29 @@
+.login_section{
+    @apply bg-[url(images/img_banner.png)] lg:bg-none px-4 lg:p-0;
+    background-size: 100vw 100vh;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+}
+.form_part{
+    
+}
+h1{
+    @apply font-overpass font-extrabold lg:text-[36px] text-[24px] md:text-[28px] p-4 lg:p-0 text-[#444B59] lg:mb-[21px] md:mb-[6px] 
+}
+h2{
+    @apply font-nunito font-semibold text-[20px] md:text-[25px] lg:text-[28px] text-[#444B59]
+}
+.img_part{
+    @apply hidden lg:block
+}
+.img_part img{
+    @apply hidden lg:block lg:w-[700px]
+}
+.input_part input{
+    @apply w-[270px] lg:w-[400px] md:w-[310px] h-[43px] md:h-[48px] lg:h-[50px] px-4 outline-none mt-[16px] rounded-[80px];
+    border: solid 1px #789ADE;
+}
+.img_row img{
+    @apply w-[60px] h-[50px]
+}
