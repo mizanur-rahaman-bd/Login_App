@@ -15,11 +15,11 @@ const Login = () => {
                 <div className="input_part">
                   <p className="mb-[18px] md:mb-[25px] lg:mb-[64px] font-nunito font-normal text-[18px] lg:text-[24px] md:text-[22px] text-[#444B59]">
                     Don’t have a account,{" "}
-                    <Link className="text-[#486de6] font-bold" to={""}>
+                    <Link className="text-[#486de6] font-bold" to={"/register"}>
                       Sign up
                     </Link>{" "}
                   </p>
-                  <h2>Username</h2>
+                  <h2>Email/Username</h2>
                   <input
                     className=""
                     placeholder="deniel123@gmail.com"
@@ -33,7 +33,7 @@ const Login = () => {
                     placeholder=" • • • • • • • • "
                     type="password"
                   />
-                  <FaEyeSlash className="absolute left-[250px] md:left-[287px] lg:left-[455px] top-[322px] md:top-[373px] lg:top-[433px] text-[#9EB0EA]" />
+                  {/* <FaEyeSlash className="absolute left-[250px] md:left-[287px] lg:left-[455px] top-[322px] md:top-[373px] lg:top-[433px] text-[#9EB0EA]" /> */}
                 </div>
                 <div className="w-[288px] lg:w-[400px] mt-[16px] flex justify-between">
                   <div className="check_box flex gap-1">
